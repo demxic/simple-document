@@ -40,3 +40,7 @@ class Document(object):
 		f.write("".join(self.characters))
 		f.close()
 
+	@property
+	def string(self):
+		return "".join(self.characters)
+
